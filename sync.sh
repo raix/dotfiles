@@ -18,7 +18,4 @@ unset doIt
 #Add sublime at sync / install
 ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" ~/bin/subl
 
-#Add meteor git version
-ln -s "~/meteor/meteor" ~/bin/meteor
-
 source ~/.bash_profile
