@@ -12,6 +12,8 @@ alias slt='open -a "Sublime Text"'
 # also/or do this:
 #ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" ~/bin/subl
 
+#Add meteor git
+alias meteor '~/meteor/meteor'
 
 # be nice
 alias please=sudo
