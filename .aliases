@@ -7,6 +7,9 @@ alias .....="cd ../../../.."
 alias ~="cd ~" # `cd` is probably faster to type though
 alias -- -="cd -"
 alias dev="cd ~/dev" # my default development dir
+alias devp="cd ~/dev/packages"
+alias devpp="cd ~/dev/private-packages"
+alias devt="cd ~/dev/test" # my default development dir
 
 # programs
 alias slt='open -a "Sublime Text 2"'
@@ -24,6 +27,8 @@ alias hosts='sudo $EDITOR /etc/hosts'   # yes I occasionally 127.0.0.1 twitter.c
 alias bunyip='node ~/code/bunyip/cli.js'
 alias spotify="osascript ~/code/SpotifyControl/SpotifyControl.scpt"
 
+# alias to nw
+alias nw="/Applications/node-webkit.app/Contents/MacOS/node-webkit"
 
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`
