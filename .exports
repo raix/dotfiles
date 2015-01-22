@@ -17,7 +17,13 @@ export HISTTIMEFORMAT
 export HISTIGNORE="ls:ls *:cd:cd -:pwd;exit:date:* --help"
 
 PATH=$PATH:~/bin
+PATH=$PATH:/usr/local/etc/bin
 export PATH
 
 # Meteor packages in the home directory
-export PACKAGE_DIRS="~/dev/packages"
+export PACKAGE_DIRS="/Users/raix/dev/packages:/Users/raix/dev/private-packages"
+
+# Chromium
+export PATH=$PATH:~/dev/SpaceCapsule/depot_tools
+
+export PATH=${PATH}:~/dev/android/sdk/platform-tools:~/dev/android/sdk/tools
